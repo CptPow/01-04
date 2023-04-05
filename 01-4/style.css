@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/*NAV*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.link-blue {
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 98, 255);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/*MAIN*/
+main {
+  background-color: rgb(191, 228, 255);
+  text-align: center;
+ height: 400px;
+}
+
+.description-title {
+  display: block;
+  padding-top: 30px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+  font-size: 40px;
+}
+
+.radio {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 45%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.description {
+  width: 40%;
+  height: auto;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.main-image {
+  z-index: 1;
+  position: absolute;
+  top: 200px;
+  right: 630px;
+}
+
+.business {
+  margin-top: 100px;
+}
+
+.singolo {
+  border: 1px solid rgb(174, 174, 174);
+  width: 13%;
+  padding: 30px;
+  height: 650px;
+}
+
+.card-title {
+  border: 1px solid rgb(174, 174, 174);
+  text-align: center;
+  margin: -30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.hr {
+  color: rgb(174, 174, 174);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mese {
+  color: rgb(174, 174, 174);
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.card-tariffe {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.singolo-team {
+  border: 1px solid rgb(174, 174, 174);
+  width: 44.1%;
+  padding: 30px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.link-blue-ufficio {
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 98, 255);
+  text-decoration: none;
+  padding: 8px 18px;
+  z-index: 1;
+  position: absolute;
+  top: 1340px;
+  right: 580px;
+}
+
+.ufficio-vendite {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.partner-drop {
+  display: flex;
+  width: 44%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.partner-desc {
+  text-align: left;
+  padding: 50px;
+  width: 25%;
+}
+
+.partner-sub {
+  font-size: 15px;
+  width: 180px;
+}
+
+.btn-part {
+  border: 1px solid black;
+  padding: 5px;
+  text-decoration-line: none;
+  color: black;
+}
+
+.title-bus {
+  font-size: 33px;
+  margin-left: 550px;
+  word-spacing: 10px;
+  margin-top: 50px;
+}
+
+.container-uno {
+  display: flex;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 80px;
+}
+
+.title-business {
+  font-size: 19px;
+  margin: 0px;
+}
+
+.container-due {
+  display: flex;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 80px;
+}
+
+.title-clienti {
+  width: 30%;
+  margin-left: 540px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.central {
+  background-color: rgb(223, 223, 223);
+  font-size: small;
+  width: 30%;
+  height: 470px;
+  padding: 30px;
+  font-family: roboto;
+}
+.esterni {
+  width: 35%;
+  padding-inline: 50px;
+  margin: 0px;
+  text-align: center;
+}
+.hrdue {
+  color: rgb(174, 174, 174);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.container-immagini {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+.pre-foot {
+  background-color: rgb(191, 228, 255);
+  margin: 0%;
+  padding: 0%;
+  height: 250px;
+  display: flex;
+
+}
+.prova-btn {
+  margin-top: 80px;
+  margin-left: 320px;
+
+}
+
+.pre-foot-title {
+  color: rgb(123, 32, 32);
+  font-family: roboto;
+  margin-left: 500px;
+  align-self: center;
+}
+.btn-prova {
+  text-decoration: none;
+  background-color: aliceblue;
+  padding: 6px;
+  color: black;
+  font-family: roboto;
+  font-size: small;
+  padding-left: 30px;
+  padding-right: 30px;
+  
+}
+.domande-freq {
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  font-family: roboto;
+  padding: 90px;
+}
