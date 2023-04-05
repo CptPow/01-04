@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 /*NAV*/
@@ -30,7 +29,7 @@ nav ul {
 main {
   background-color: rgb(191, 228, 255);
   text-align: center;
- height: 400px;
+  height: 400px;
 }
 
 .description-title {
@@ -236,12 +235,10 @@ h2 {
   padding: 0%;
   height: 250px;
   display: flex;
-
 }
 .prova-btn {
   margin-top: 80px;
   margin-left: 320px;
-
 }
 
 .pre-foot-title {
@@ -259,12 +256,39 @@ h2 {
   font-size: small;
   padding-left: 30px;
   padding-right: 30px;
-  
 }
 .domande-freq {
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
+  width: 1300px;
   font-family: roboto;
   padding: 90px;
+}
+footer {
+  font-family: roboto;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+.list-title {
+  font-weight: bold;
+  font-weight: 16px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+
+}
+footer ul li {
+  list-style: none;
+  padding: 5px;
+}
+.list-cont {
+  display: flex;
+  gap: 120px;
+  
+}
+.lingua {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
